@@ -1,0 +1,298 @@
+body {
+    font-family: "Open Sans";
+    font-weight: 400;
+    align-items: center;
+    background-color: hsl(257, 40%, 49%);
+    text-align: center;
+    
+}
+
+h1 {
+    font-family: "Poppins";
+    font-weight: 600;
+    color: white;
+    padding: 10%;
+    padding-bottom: 0;
+    text-align: left;
+}
+
+p {
+    color: white;
+    font-size: 15px;
+    text-align: left;
+}
+.container {
+    display: inline-flex;
+    background-color:hsl(257, 40%, 49%);
+    background-image: url(bg-desktop.svg);
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    max-height: 800px;
+    min-height: 800px;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    margin-top: 5%;
+    
+}
+
+.left-side {
+    width: 60%;
+}
+.logo-div {
+    text-align: left;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10%;
+}
+.logo {
+    width: 30%;
+    
+    margin-left: 10%;
+}
+.image-div {
+    text-align: right;
+}
+.image{
+    width: 90%;
+    
+}
+
+.heading {
+    padding-top: 10%;
+}
+
+.paragraph {
+    margin: 10%;
+}
+
+
+.right-side {
+    
+    height: auto;
+    width: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10%;
+    
+}
+.register-button {
+    padding-bottom:  20%;
+    padding-left: 5%;
+    text-align: left;
+    width: 85%;
+    margin: auto;
+}
+button {
+    width: 200px;
+    height: 50px;;
+    max-width: 200px;
+    max-height: 50px;
+    border-radius: 40px;
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 20px;
+    color: hsl(300, 69%, 71%);
+    box-shadow: 3px 3px 10px black;
+    border: 1px solid hsl(300, 69%, 71%);
+    
+}
+button:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+.icons {
+    
+    text-align: right;
+
+}
+
+i {
+    margin: 10px;
+}
+
+
+
+
+@media (max-width: 600px) {
+    .container {
+        display: block;
+        background-color:hsl(257, 40%, 49%);
+        background-image: url(bg-mobile.svg);
+        height: auto;
+        
+        
+    }
+    .left-side {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    .right-side {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+    }
+    .image {
+        width: 100%;
+    }
+    .icons {
+        text-align: center;
+        
+    }
+    button {
+        margin: 0;
+    }
+    i {
+        margin: 0%;
+    }
+    .logo {
+        margin-left: 0;
+        width: 30%;    
+    }
+    h1 {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .heading {
+        padding-top: 0%;
+        width: 85%;
+        font-weight: 400;
+        margin: auto;
+        font-size: 12px;
+        margin-bottom: 2%;
+    }
+    .paragraph {
+        width: 85%;
+        margin: auto;
+        margin-bottom: 2%;
+      
+    }
+    .image-div {
+        margin: auto;
+        width: 85%;
+    }
+    .register-button {
+        padding:0;
+        margin-bottom: 2%;
+        text-align: center;
+    }
+    i {
+        margin: 0;
+    }
+    p {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .logo-div {
+        width: 75;
+        margin-top: 0;
+        margin-left: 0;
+        text-align: left;
+    }
+
+}
+@media (max-width: 375px) {
+    .container {
+        display: block;
+        background-color:hsl(257, 40%, 49%);
+        background-image: url(bg-mobile.svg);
+        height: auto;
+        
+        
+    }
+    .left-side {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    .right-side {
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin-top: 50%;
+    }
+    .image {
+        width: 100%;
+    }
+    .icons {
+        text-align: center;
+        margin-top: 10%;
+    }
+    button {
+        margin: 0;
+    }
+    i {
+        margin: 0%;
+    }
+    .logo {
+        margin-left: 0;
+        width: 30%;    
+    }
+    h1 {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    
+    .heading {
+        padding-top: 0%;
+        width: 85%;
+        font-weight: 400;
+        margin: auto;
+        font-size: 12px;
+        margin-bottom: 2%;
+        margin-top: 5%;
+        text-align: center;
+    }
+    .paragraph {
+        width: 85%;
+        margin: auto;
+        margin-bottom: 2%;
+        margin-top: 5%;
+        text-align: center;
+      
+    }
+    .image-div {
+        margin: auto;
+        width: 85%;
+    }
+    .register-button {
+        padding:0;
+        margin-bottom: 2%;
+        margin-top: 10%;
+        text-align: center;
+    }
+
+    i {
+        margin: 0;     
+    }
+    
+    p {
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+    .logo-div {
+        width: 75;
+        margin-top: 0;
+        margin-left: 0;
+        text-align: left;
+    }
+
+}
+
+@media (min-width: 1440px) {
+    body {
+        font-family: "Open Sans";
+        font-weight: 400;
+        align-items: center;
+        background-image: url('favicon-32x32.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+}
